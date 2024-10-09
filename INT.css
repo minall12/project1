@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+}
+.left{
+    background-color: rgba(3, 58, 49, 0.945);
+    position: inherit;
+    margin-right: 50px;
+    padding-left: 5px;
+    margin-left: 40px;
+    padding-bottom: 100px;
+    max-width: 450px;
+    max-height: 700px;
+}
+
+img{
+    height: 130px;
+    width: 180px;
+    padding-right: 3px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(249, 226, 186);
+    font-style: normal;
+    font-weight: 200;
+    line-height: 45px;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-top: 300px;
+}
+
+.right{
+    background-color: white;
+    position: relative;
+    color: rgb(35, 35, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: -0.5px;
+    max-width: 430px;
+    font-size: 34px;
+    max-height: 300px;
+}
+form{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+    line-height: 24px;
+}
+
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid black;
+    line-height: 24px;
+}
+
+input[type=email] {
+        border: none;
+        border-bottom: 2px solid black;
+        line-height: 24px;}
+
+input[type=button] {
+    display: flex;
+    width: 450px;
+    height: 76px;
+    padding: 24px 43px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: rgb(0, 195, 139);
+    cursor: pointer;
+    color: white;
+}
+        
+
+pre{
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+a:link{
+    color:  rgb(189, 189, 189);
+}
+
+#link1{
+    color: rgb(0, 195, 139);
+}
